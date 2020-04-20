@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Petronomica</title>
+    <meta name="discription" content="discription">
+    <meta name="theme-color" content="#c9e0e04d">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;800&amp;family=PT+Sans&amp;display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header__container">
+        <div class="header__top-line"><a class="logo" href="index.html"><img class="header__logo" src="./img/logo.png" alt="Petronomica"></a>
+          <div class="location">
+            <div class="location__item location__city">Москва</div>
+            <div class="location__item location__phone">+7 800-562-3452</div>
+          </div>
+          <nav class="nav nav-hidden">
+            <ul class="nav__list">
+              <li class="nav__list-item nav__list-item--active"><a class="link nav__list-link">О проекте</a></li>
+              <li class="nav__list-item"><a class="link nav__list-link" href="javascript:void(0)">Онлайн-курсы</a></li>
+              <li class="nav__list-item"><a class="link nav__list-link" href="javascript:void(0)">Статьи</a></li>
+            </ul>
+          </nav>
+          <div class="user-block user-block-hidden"><a class="link link-btn link-btn--border teacher-link" href="javascript:void(0)">Преподавателям</a><a class="link user-block__registration user-block__registration--hidden" href="javascript:void(0)">Регистрация</a><a class="link user-block__login user-block__login--hidden" id="user-login" href="javascript:void(0)">Вход</a></div>
+          <button class="burger "><span class='burger__line'>Open</span></button>
+          <div class="mobile-user"><a class="link user-block__registration user-registration" href="javascript:void(0)">Регистрация</a><a class="link user-block__login" id="user-login" href="javascript:void(0)">Вход</a></div>
+        </div>
+        <div class="header__info">
+          <div class="header__info-inner">
+            <h1 class="header__title"><span>Первая</span> образовательная онлайн-платформа, созданная преподами!</h1>
+            <div class="header__discr">
+              <p class="header__discr-text">Описание уникального торгового предложения или же описание названия того или иного продукта, который на первом экран</p>
+              <div class="header__info-btn"><a class="link link-btn link-btn--orange header__info-btn-link" href="javascript:void(0)">Зарегистрироваться</a></div>
+            </div>
+          </div>
+        </div>
+        <div class="fade-in" id="find-more"><a class="link fade-in__link" href="#main"><img src="./img/mouse.svg"></a>
+          <p class="fade-in__text">Подробнее ниже</p>
+        </div>
+      </div>
+      <div class="mobile-menu"><a class="logo" href="index.html"><img class="header__logo" src="./img/logo.png" alt="Petronomica"/></a>
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__list-item"><a class="link nav__list-link">О проекте</a></li>
+            <li class="nav__list-item"><a class="link nav__list-link" href="javascript:void(0)">Онлайн-курсы</a></li>
+            <li class="nav__list-item"><a class="link nav__list-link" href="javascript:void(0)">Статьи</a></li>
+          </ul>
+        </nav>
+        <div class="user-block"><a class="link user-block__registration user-registration" href="javascript:void(0)">Регистрация</a><a class="link user-block__login" id="user-login" href="javascript:void(0)">Вход</a><a class="link link-btn link-btn--border teacher-link" href="javascript:void(0)">Преподавателям</a></div>
+      </div>
+    </header>
+    <main class="main" id="main">
+      <div class="main__inner"><a class="link link-btn link-btn--border main__promo-link" href="javascript:void(0)">199 преподавателей уже работает на сайте</a>
+        <section class="programs main__programs">
+          <h2 class="programs__title">Выберите свою программу</h2>
+          <div class="slider programs__slider" id="program-slider">
+            <div class="slider-item">
+              <div class="slide"><a class="link slide-link slide-link1" href="javascript:void(0)">
+                  <p class="slide-discr">Школьная<br> программа</p>
+                  <p class="slide-discr--promo">Подробнее<br> о программе</p></a></div>
+            </div>
+            <div class="slider-item">
+              <div class="slide"><a class="link slide-link slide-link2" href="javascript:void(0)">
+                  <p class="slide-discr">Студенческая<br> программа</p>
+                  <p class="slide-discr--promo">Подробнее<br> о программе</p></a></div>
+            </div>
+            <div class="slider-item">
+              <div class="slide"><a class="link slide-link slide-link3" href="javascript:void(0)">
+                  <p class="slide-discr">Дополнительное<br> образование</p>
+                  <p class="slide-discr--promo">Подробнее<br> о программе</p></a></div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <script src="./js/main.js"></script>
+    <script src="./js/vendor.js"></script>
+  </body>
+</html>
